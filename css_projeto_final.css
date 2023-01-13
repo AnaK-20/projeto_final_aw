@@ -31,7 +31,9 @@
     text-align: end;
 }
 .imagens{
-    padding: 100px;
+    margin: 10px;
     float: left;
-    text-align: left;
+}
+.filtros{
+    float: right;
 }
