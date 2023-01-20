@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css_projeto_final.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #C7DDBE">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="pagina_inicial.html">
+              <div class="logo"><img src="Cidades Sustentáveis - logo.png" alt="Logotipo" class="rounded-circle" width="80px"/></div>
+              <div class="logo"><h6 class="titulo">ECO   </h6>
+              <p class="subtitulo">Cidades Sustentáveis</p></div>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="comunidades.html">Comunidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cadastrar</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="perfil_projeto.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Perfil
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Minhas publicações</a></li>
+                  <li><a class="dropdown-item" href="#">Meus dados</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Minhas comunidades</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="autenticacao.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pagina_inicial.html">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav><br/>
+
+
+      <h2>Administração</h2>
+   
+      <link rel="stylesheet" type="text/css" href="estilo_pagina.css"/>
+ 
+   <div class="administracao">
+     
+   </div>
+   <ul class="list-group" style="float: left;">
+    <li class="list-group-item"><a href="">Inicio</a></li>
+    <li class="list-group-item"><a href="">Perfil</a></li>
+    <li class="list-group-item"><a href="">Comunidades</a></li>
+</ul>
+<div class="cursosofertas" style="float: left; margin-left: 50px;">
+<h2>Comunidades Inscritas</h2>
+<input type="submit" value="Cadastrar Comunidade" style="background-color: #C7DDBE; color: rgb(40,105,84); border: #C7DDBE; width: 175px; height: 50px;" />
+</div>
+
+
+   
+     <div class="inscricoes" style="margin-left:150px; margin-top:50px; clear: both;">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" style="background-color: #C7DDBE" >Comunidades</th>
+                <th scope="col" style="background-color: #C7DDBE" >Data de inscrição</th>
+                <th scope="col"style="background-color: #C7DDBE" >Inscritos</th>
+                <th scope="col"style="background-color: #C7DDBE" >Gerenciar</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Comunidade 1</td>
+                <td>11/10/2022</td>
+                <td><input type="submit" name="submit" value="Lista" style="background-color: #C7DDBE; color: rgb(40,105,84); border: #C7DDBE; width: 60px; height: 30px;"></td>
+                <td><div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">Excluir</button>
+                    <button type="button" class="btn btn-primary" style="margin-left: 5px;">Editar</button>
+                  </div></td>
+              </tr>
+              <tr>
+                <td>Comunidade 2</td>
+                <td>30/08/2022</td>
+                <td><input type="submit" name="submit" value="Lista" style="background-color: #C7DDBE; color: rgb(40,105,84); border: #C7DDBE; width: 60px; height: 30px;"></td>
+                <td><div class="btn-group" role="group" aria-label="Basic example">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-primary">Excluir</button>
+                        <button type="button" class="btn btn-primary" style="margin-left: 5px;">Editar</button>
+                  </div></td>
+               
+              </tr>
+              <tr>
+                <td>Comunidade 3</td>
+                <td>14/06/2022</td>
+                <td><input type="submit" name="submit" value="Lista" style="background-color: #C7DDBE; color: rgb(40,105,84); border: #C7DDBE; width: 60px; height: 30px;"></td>
+                <td><div class="btn-group" role="group" aria-label="Basic example">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-primary">Excluir</button>
+                        <button type="button" class="btn btn-primary" style="margin-left: 5px;">Editar</button>
+                  </div></td>
+              </tr>
+            </tbody>
+          </table>
+     </div>
+     
+</body>
+</html>
