@@ -1,0 +1,39 @@
+.subtitulo{
+    font-size: 10pt;
+    font-family: carosselo, amithen, pathways;
+    text-align: center;
+    color: rgb(40, 105, 84);
+    font-style: italic;
+}
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(94, 190, 158);
+    font-size: 16pt;
+}
+.logo{
+    float: left;
+
+}
+.menu{
+    background-color: aquamarine;
+}
+
+.descricao{
+    padding: 150px;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p1{
+    font-size: 14pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: end;
+}
+.imagens{
+    margin: 10px;
+    float: right;
+}
+.filtros{
+    float: right;
+}
